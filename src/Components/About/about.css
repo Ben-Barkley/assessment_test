@@ -1,0 +1,154 @@
+/* .aboutbox{
+    display: flex;
+    color: black;
+    
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-weight: 500;
+    
+    font-family: 'Courgette', cursive;
+    padding-left: 50px;
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+}
+.image > img{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;  
+}
+
+
+
+/**Info**/
+#info{
+    background-color: rgb(246, 246, 246);
+    text-align: center;
+    font-size: large;
+    font-weight: 200;
+    line-height: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+    
+@media screen and (max-width: 1024px) {
+    .team__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        padding: 2px;
+        display:flex;
+        
+    }
+        .team__member{
+            padding: 0;
+        }
+        .team__member p{
+             margin-bottom: 1.5rem;
+        }
+    
+    
+}
+
+
+
+/*--service--*/
+
+#service{
+    width: 100%;
+    padding: 70px 0;
+    background: #efefef;
+}
+.service-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+ .single-service{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+    
+ }
+ .single-service img{
+     width: 100%;
+     border-radius: 7px;
+ }
+ .single-service .img-resize1 img{
+     height: 24.5rem;
+ }
+ .single-service .img-resize2 img{
+    height: 23rem;
+}
+.single-service .img-resize3 img{
+    height: 23rem;
+}
+
+ .overlay{
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     border-radius: 7px;
+     cursor: pointer;
+     background: linear-gradient(rgba(0,0,0,0.5), #5837fb49) ;
+     opacity: 0;
+     transition: 1s;
+ }
+ /* #00965cda */
+
+ .single-service:hover .overlay{
+     opacity: 1;
+ }
+.service-desc{
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: 1s;
+}
+hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+}
+.service-desc p{
+    font-size: 14px;
+}
+.single-service:hover .service-desc{
+    bottom: 40%;
+    opacity: 1;
+}
+@media screen and (max-width: 770px){
+    .single-service{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .service-desc p{
+        font-size: 12px;
+    }
+    hr{
+        margin: 5px auto;
+    }
+    .single-service:hover .service-desc{
+        bottom: 25% !important;
+    }
+}
+

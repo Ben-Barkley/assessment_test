@@ -1,0 +1,36 @@
+*{
+    margin:5px 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    /* background-color: rgb(51, 128, 0); */
+    background-color: #5837fb49;
+    width: 100%;
+    color: white;        
+}
+
+.navbar h1{
+    padding-left: 20px;
+}
+
+
+.navbar .nav-links{
+    display: flex;
+}
+.navbar .nav-links li{
+    margin: 10px;
+    list-style: none;
+    text-transform: uppercase;
+    
+    
+}
+
+.navlinktag{
+    color: aliceblue;
+    justify-content: none;
+    text-decoration: none;
+}
