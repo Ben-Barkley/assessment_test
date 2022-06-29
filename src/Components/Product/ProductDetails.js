@@ -15,7 +15,7 @@ const ProductDetails = ({foods}) => {
         <div className='card-detail-value'>
             
           
-            <button class="normal">Add To Cart</button>
+            <button class="normal">Add to Cart</button>
         <h3> {name} </h3>
         <p> {price} </p>
         
