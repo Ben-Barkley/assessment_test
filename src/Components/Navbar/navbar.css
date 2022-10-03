@@ -8,9 +8,10 @@
     align-items: center;
     height: 15vh;
     /* background-color: rgb(51, 128, 0); */
-    background-color: #5837fb49;
+    /* background-color: #5837fb49; */
     width: 100%;
-    color: white;        
+    /* color: white;         */
+    
 }
 
 .navbar h1{
@@ -22,15 +23,23 @@
     display: flex;
 }
 .navbar .nav-links li{
-    margin: 10px;
-    list-style: none;
-    text-transform: uppercase;
-    
-    
+    margin: 2px 60px 35px 5px;
+    list-style: none; 
+    font-size: 12px;
 }
 
 .navlinktag{
     color: aliceblue;
     justify-content: none;
     text-decoration: none;
+}
+
+.navlinktag span{
+    color: aliceblue;
+   border: 2px;
+   background: #006E1C;
+   border-radius: 8px;
+   /* top:     4px; */
+   padding: 8px 6px;
+ 
 }

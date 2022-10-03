@@ -1,7 +1,222 @@
-.box{
-    width: 250px;
-    height: 250px;
-    margin: 10px;
-    background: blue;
+
+
+.hero-img img{
+     height: 90vh;
+     margin-left: 45em;
+     margin-top: -32.5em;
+     width: 55%;
 }
 
+/* Become a Merchant */
+.details{
+    margin-bottom: 40px;
+}
+.hero2{
+    margin-top: 40px;
+}
+.hero2 button{
+    color: aliceblue;
+   border: 2px;
+   background: #006E1C;
+   border-radius: 8px;
+   margin: 5px 82px;
+   padding: 10px 10px;
+   list-style: none;
+   text-decoration: none;
+}
+.hero2 p{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 20px 40px 5px 0px;
+}
+.hero2 .nav-links li{
+    display: block;
+    list-style: none; 
+}
+.hero-heading{
+    margin: 5px 70px;
+    padding: 10px 20px;
+    color: #1D1D1D;
+    font-size: 40px;
+    font-weight: 900;
+}
+/* merchant details */
+ .merch-det{
+    bottom: 20px;
+ }
+.prgps{
+    margin: 5px 40px;
+    padding: 10px 50px;
+    color: #AAACA6;
+}
+
+/* Brands */
+.brands{
+        border: 2px;
+        background: #FFFFFF;
+        box-shadow: 0px 3.71856px 27.8892px rgba(0, 0, 0, 0.03);
+        padding: 30px 10px 30px 50px;
+        position: relative;
+        bottom: 85px;
+        width: 50%;
+        border-radius: 20px;
+        margin: 20px 140px;   
+}
+.brands h1{
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding: 0px 10em 5px 22em;
+    color: #006E1C;
+    font-weight: 500;
+}
+
+.brands-icon{
+    color: rgba(112, 112, 112, 1);
+    font-size: 50px;
+    margin: 10px 10px 10px 220px;
+    justify-content:space-between ;
+    
+}
+
+.brands-icon .icons{
+    justify-content:space-between ;
+    padding: 10px 50px 10px 20px;
+}
+
+
+/* How does it work */
+.banner{
+    background: #F8FFF2;
+    
+}
+
+.body-details h1{
+   margin-left: 45px;
+    color: rgba(29, 29, 29, 1);
+}
+.body-details p{
+    margin: 5px 15px;
+    padding: 10px 30px;
+    color: #AAACA6;
+}
+
+.content-icon .cont-icn{
+    background:  #00C642;
+    color: #FFFFFF;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+ .cont-icn{
+    font-size: 25px;
+    justify-items: center;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+}
+.cont-icn .dash{
+    color:  #006E1C;
+    font-size: 10px;
+    margin-bottom: -25px;
+    margin-left: 40px;
+}
+.content-icon h3{
+    color:  #006E1C;
+    font-size: 22px;
+}
+
+.content-icon p{
+    color: #AAACA6;
+}
+
+/* hero3 */
+.hero3-details{
+    margin-right: 120px;
+    /* padding: 10px 90px; */
+}
+.hero3-details h2{
+    margin: 5px 45px;
+    padding: 10px 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hero3-details p{
+    margin: 5px 50px;
+    padding: 10px 20px;
+    color: #AAACA6;
+}
+
+.content2-icon .cont2-icn{
+    background:  #F5FFEE;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.each-cont-icon .cont2-icn {
+    color: #AAACA6;  
+}
+
+.each-cont-icon .cont2-icn{
+    color: #006E1C;
+    font-size: 100px;
+    justify-items: center;
+    align-items: center;
+    padding: 20px 20px 10px 20px;
+}
+
+.contz li{
+    list-style: none;
+    padding: 10px 10px 5px 90px;
+    margin-bottom: 5px;
+    margin: 10px -80px ;
+    
+}
+
+.contz .cont4-icn{
+    margin-top: 25px;
+    background: #006E1C;
+    color: #FFFFFF;
+}
+
+.main-details h1{
+  margin: 10px -20px ;
+  margin-left: -4px;
+  font-weight: 700;
+}
+
+
+.hero4-img  img{
+    height: 85vh;
+    margin-left: -4em;
+    width: 100vh;
+}
+
+.hero5-img  img{
+    position: absolute;
+    height: 80vh;
+    margin-left: -2em;
+    width: 100vh;
+    top: 104em;
+}
+
+.banner2{
+    background:  #F7F0EA;;
+}
+
+.hero5-btn button{
+    border: solid 2.5px #006E1C;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    background: #FBFBFB;
+}
+
+.hero6-img img{
+    height: 65vh;
+    position: absolute;
+    width: 70vh;
+    top: 112em;
+    font-size: 20px;
+}
